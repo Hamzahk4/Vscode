@@ -1,24 +1,30 @@
-
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
 
-    
+
+   
     </head>
 
 
+
+
     <body>
-        <h1>Students entered:</h1>
-        <h2 id="count-el">0</h2>
-        <button id="increment-btn" onclick="increment()">INCREMENT</button>
-        <!-- the id here sets the id so we know that this is the increment
-         button and we can apply changed this way. The onclick will use a func
-         called increment where it does ++, and the name is increment.-->
-        <button id="save-btn" onclick="save()">SAVE</button>
-        <h3 id="prev">Previous entries: </h3>
+        <div class="container">
+            <h1>Students entered:</h1>
+            <h2 id="count-el">0</h2>
+            <button id="increment-btn" onclick="increment()">INCREMENT</button>
+            <!-- the id here sets the id so we know that this is the increment
+            button and we can apply changed this way. The onclick will use a func
+            called increment where it does ++, and the name is increment.-->
+            <button id="save-btn" onclick="save()">SAVE</button>
+            <h3 id="prev">Previous entries: </h3>
+            <h3 id ="tot"></h3>
+        </div>
     <script src="index.js">
 
-        
+
+       
     </script>
     </body>
 </html>
